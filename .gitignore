@@ -1,0 +1,29 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE and operating system files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+.env.*
+
+# Original dataset
+data/Online Retail.xlsx
+
+# Generated model files
+models/*.pkl
+
+# Generated data files
+data/processed/*.csv
+
+# Logs
+*.log
